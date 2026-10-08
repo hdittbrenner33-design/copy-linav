@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Do you want people to credit you? | LiNav</title>
+  <title>CC BY-NC-SA 4.0 | LiNav</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,25 +15,33 @@
 
   <main id="main" class="site-main">
     <div class="wizard">
-      <section class="card" aria-labelledby="question-title">
-      <p class="step">Question 1</p>
-      <h1 id="question-title">Do you want people to credit you?</h1>
-      <p class="help">Attribution means anyone who uses your work has to name you as the creator. If you choose no, you give up your rights and the work goes to the public domain.</p>
+      <section class="card result" aria-labelledby="result-title">
+      <p class="step">Your result</p>
+      <h1 id="result-title">CC BY-NC-SA 4.0</h1>
+      <p class="license-full">Attribution-NonCommercial-ShareAlike 4.0 International</p>
+      <p class="summary">People can share and adapt your work for non-commercial purposes if they credit you and license their adaptations the same way.</p>
 
-      <ul class="answers">
-        <li>
-          <a class="answer" href="commercial.html">
-            <span class="answer-label">Yes, require credit</span>
-            <span class="answer-note">People must name you when they use your work.</span>
-          </a>
-        </li>
-        <li>
-          <a class="answer" href="cc0.html">
-            <span class="answer-label">No, give up all rights</span>
-            <span class="answer-note">Your work becomes free for anyone to use for any purpose (CC0).</span>
-          </a>
-        </li>
-      </ul>
+      <dl class="facts">
+      <dt>Others can</dt>
+      <dd><ul><li>Copy and share your work</li><li>Adapt and build on it</li></ul></dd>
+      <dt>Others must</dt>
+      <dd><ul><li>Give you credit</li><li>Link to the license</li><li>Say if they made changes</li><li>Share adaptations under the same license</li></ul></dd>
+      <dt>Others cannot</dt>
+      <dd><ul><li>Use it commercially</li></ul></dd>
+      <dt>SPDX identifier</dt>
+      <dd><code>CC-BY-NC-SA-4.0</code></dd>
+      </dl>
+
+      <p class="note">&quot;Non-commercial&quot; can be hard to define. If you want people to know exactly what counts, add a short note of your own describing it.</p>
+
+      <p><a class="button" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Read the official summary</a></p>
+
+      <p class="fineprint">
+        Creative Commons licenses are made for writing, art, music, and similar work, and are not recommended for software.
+        Once people have received your work under a CC license, they keep those rights, so choose carefully.
+      </p>
+
+      <p class="nav-links"><a href="by-nc-sharealike.html">Back</a> <a href="index.html">Start over</a></p>
       </section>
 
     <nav class="tree" aria-labelledby="tree-title">
@@ -45,13 +53,13 @@
       </p>
       <ul class="tree-list">
         <li>
-          <div class="tree-row current">
-        <a class="tree-node tree-question" href="index.html" aria-current="page"><span class="tree-marker" aria-hidden="true"></span><span>Require attribution?</span><span class=visually-hidden> (you are here)</span></a></div>
+          <div class="tree-row on-path">
+        <a class="tree-node tree-question" href="index.html"><span class="tree-marker" aria-hidden="true"></span><span>Require attribution?</span><span class=visually-hidden> (on your path)</span></a></div>
           <ul>
             <li>
-              <div class="tree-row off-path">
+              <div class="tree-row on-path">
         <span class="tree-answer">Yes</span>
-        <a class="tree-node tree-question" href="commercial.html"><span class="tree-marker" aria-hidden="true"></span><span>Allow commercial use?</span></a></div>
+        <a class="tree-node tree-question" href="commercial.html"><span class="tree-marker" aria-hidden="true"></span><span>Allow commercial use?</span><span class=visually-hidden> (on your path)</span></a></div>
               <ul>
                 <li>
                   <div class="tree-row off-path">
@@ -77,18 +85,18 @@
                   </ul>
                 </li>
                 <li>
-                  <div class="tree-row off-path">
+                  <div class="tree-row on-path">
         <span class="tree-answer">No</span>
-        <a class="tree-node tree-question" href="by-nc-adaptations.html"><span class="tree-marker" aria-hidden="true"></span><span>Allow adaptations?</span></a></div>
+        <a class="tree-node tree-question" href="by-nc-adaptations.html"><span class="tree-marker" aria-hidden="true"></span><span>Allow adaptations?</span><span class=visually-hidden> (on your path)</span></a></div>
                   <ul>
                     <li>
-                      <div class="tree-row off-path">
+                      <div class="tree-row on-path">
         <span class="tree-answer">Yes</span>
-        <a class="tree-node tree-question" href="by-nc-sharealike.html"><span class="tree-marker" aria-hidden="true"></span><span>Require ShareAlike?</span></a></div>
+        <a class="tree-node tree-question" href="by-nc-sharealike.html"><span class="tree-marker" aria-hidden="true"></span><span>Require ShareAlike?</span><span class=visually-hidden> (on your path)</span></a></div>
                       <ul>
-                        <li><div class="tree-row off-path">
+                        <li><div class="tree-row current">
         <span class="tree-answer">Yes</span>
-        <a class="tree-node tree-result" href="by-nc-sa.html"><span class="tree-marker" aria-hidden="true"></span><span>CC BY-NC-SA</span></a></div></li>
+        <a class="tree-node tree-result" href="by-nc-sa.html" aria-current="page"><span class="tree-marker" aria-hidden="true"></span><span>CC BY-NC-SA</span><span class=visually-hidden> (you are here)</span></a></div></li>
                         <li><div class="tree-row off-path">
         <span class="tree-answer">No</span>
         <a class="tree-node tree-result" href="by-nc.html"><span class="tree-marker" aria-hidden="true"></span><span>CC BY-NC</span></a></div></li>
